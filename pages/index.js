@@ -1,16 +1,9 @@
+import React from 'react'
 
-
-export default function Home() {
+const index = () => {
   return (
-    <div>
-      <div className="grid  md:grid-cols-3  ">
-        <div className="col-span-2 bg-yellow-200 text-3xl  ">
-          SOME TEXT 
-        </div>
-        <div>
-         Satelite
-        </div>
-      </div>
-    </div>
-  );
+    <div>index</div>
+  )
 }
+
+export default index

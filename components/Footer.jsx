@@ -1,13 +1,9 @@
-import '../styles/globals.css'
-import Layout from '../components/layouts'
+import React from 'react'
 
-function MyApp({ Component, pageProps }) {
+const navbar = () => {
   return (
-    <Layout>
-      <Component {...pageProps} />
-    </Layout>
-    
+    <div className='bg-green-200 '>navbar</div>
   )
 }
 
-export default MyApp
+export default navbar
