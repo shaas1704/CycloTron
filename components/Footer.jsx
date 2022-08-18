@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
-const navbar = () => {
-  return (
-    <div className='bg-green-200 '>navbar</div>
-  )
-}
+const footer = () => {
+  return <div className="bg-green-200 ">footer</div>;
+};
 
-export default navbar
+export default footer;
