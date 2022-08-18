@@ -6,4 +6,6 @@
 
 body {
   background-image: url("/backgroundSih.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
 }
