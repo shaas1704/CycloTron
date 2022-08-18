@@ -1,7 +1,7 @@
 import React from "react";
 
 const insat = () => {
-  return <div>insat</div>;
+  return <div className='text-white'>insat</div>;
 };
 
 export default insat;
