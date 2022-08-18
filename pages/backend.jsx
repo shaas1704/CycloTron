@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const backend = () => {
-  return (
-    <div className='text-white'>backend</div>
-  )
-}
+  return <div></div>;
+};
 
-export default backend
+export default backend;
