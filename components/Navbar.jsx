@@ -13,7 +13,7 @@ const navbar = () => {
             className="mr-3 h-6 sm:h-9"
             alt="The Squad 69 logo"
           /> */}
-           <span class="self-center text-xl font-semibold whitespace-nowrap text-white">
+           <span className="self-center text-xl font-semibold whitespace-nowrap text-white">
             The Squad 69
           </span> 
         </a>
