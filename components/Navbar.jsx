@@ -8,7 +8,7 @@ const navbar = () => {
     <nav className="z-10 fixed w-full bg-[#141523]  border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900">
       <div className="container flex flex-wrap justify-between items-center mx-auto">
         <a  className="flex items-center">
-         {*/ <Image
+         {/*<Image
             src="/squad1.png"
             className="mr-3 h-6 sm:h-9"
             alt="The Squad 69 logo"
