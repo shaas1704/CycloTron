@@ -15,7 +15,7 @@ const Model = () => {
 export default function Satelite() {
   return (
     <div className="">
-      <div className=" border-2 border-black bg-slate-900  h-[100vh]">
+      <div className="mt-[3rem] border-2 border-black bg-slate-900  h-[70vh]">
         <Canvas shadows dpr={[1, 2]} camera={{ position: [0, 0, 4], fov: 50 }}>
           <ambientLight intensity={0.7} />
           <spotLight

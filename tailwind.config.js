@@ -31,6 +31,7 @@ module.exports = {
         ubuntu: ["Ubuntu Mono"],
         playfairDisplay: ["Playfair Display"],
         distressed: ["Rubik Distressed", "cursive"],
+        poppins: ["Poppins", "sans-serif"],
       },
       dropShadow: {
         "3xl": "0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5)",
