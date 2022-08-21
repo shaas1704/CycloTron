@@ -7,7 +7,7 @@ const index = () => {
   return (
     <>
       <div className="grid md:grid-cols-3 h-[100vh] bg-black ">
-        <div className="col-span-2 ">{/* <Tri /> */} tri</div>
+        <div className="col-span-2 "> <Tri />  </div>
         <div className=" text-4xl drop-shadow-lg shadow-white h-full flex flex-col justify-center items-center text-center ">
           <p className="text-5xl font-bold text-white  relative   text-start drop-shadow-lg shadow-white">
             SMART INDIA HACKATHON 2022
