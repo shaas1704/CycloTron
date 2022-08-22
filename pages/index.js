@@ -27,7 +27,7 @@ const index = () => {
       <div className="h-[100vh] text-white ">
         <section className="grid md:grid-cols-2 h-[70vh] ">
           <div className="flex justify-center items-center">
-            <div className=" p-10 g-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-35 max-w-[39rem] rounded-xl h-[23rem] bg-[#e1e1e177]   ">
+            <div className=" p-10 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-35 max-w-[39rem] rounded-xl h-[23rem] bg-[#e1e1e177]   ">
               <div className="flex flex-col  items-center felx-col gap-5">
                 <p className="font-bold p text-4xl text-white">
                   But how do we actually do it ??
