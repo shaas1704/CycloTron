@@ -221,7 +221,7 @@ const team = () => {
                   </div>
                   <div className="text-center mt-2">
                     <h3 className="text-2xl text-white font-bold leading-normal mb-1">
-                      Hari
+                    Harikrishna S
                     </h3>
                     <div className="text-xs mt-0 mb-2 text-slate-400 font-bold uppercase">
                       <i className="fas fa-map-marker-alt mr-2 text-slate-400 opacity-75"></i>
@@ -259,7 +259,7 @@ const team = () => {
                         and Data Classification.
                       </p>
                       <a
-                        href="https://www.linkedin.com/in/tanya-sinha-238633234"
+                        href="https://www.linkedin.com/in/hk3112/"
                         className="font-normal text-white hover:text-slate-400"
                       >
                         Connect
@@ -325,7 +325,7 @@ const team = () => {
                         for the end user 😌✨
                       </p>
                       <a
-                        href=""
+                        href="https://www.linkedin.com/in/tanya-sinha-238633234"
                         className="font-normal text-white hover:text-slate-400"
                       >
                         Connect
