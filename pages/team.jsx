@@ -155,7 +155,7 @@ const team = () => {
                   </div>
                   <div className="text-center mt-2">
                     <h3 className="text-2xl text-white font-bold leading-normal mb-1">
-                      Shashwat Shrivastav
+                    Shaswat Srivastava
                     </h3>
                     <div className="text-xs mt-0 mb-2 text-slate-400 font-bold uppercase">
                       <i className="fas fa-map-marker-alt mr-2 text-slate-400 opacity-75"></i>
@@ -188,7 +188,7 @@ const team = () => {
                   <div className="flex flex-wrap justify-center">
                     <div className="w-full px-4">
                       <p className="font-light leading-relaxed text-slate-200 mb-4">
-                        I helped develop the Image detection CNN modle and the
+                        I helped develop the Image detection CNN model and the
                         image upload backend for this project + I Like Noodles
                         🍜
                       </p>
@@ -221,7 +221,7 @@ const team = () => {
                   </div>
                   <div className="text-center mt-2">
                     <h3 className="text-2xl text-white font-bold leading-normal mb-1">
-                    Harikrishna S
+                    Harikrishnaa S
                     </h3>
                     <div className="text-xs mt-0 mb-2 text-slate-400 font-bold uppercase">
                       <i className="fas fa-map-marker-alt mr-2 text-slate-400 opacity-75"></i>
