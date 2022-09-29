@@ -8,7 +8,6 @@ const navbar = () => {
     <nav className="z-10 fixed w-full bg-[#141523]  border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900">
       <div className="container flex flex-wrap justify-between items-center mx-auto">
         <a className="flex items-center">
-   
           <span className="self-center text-xl font-semibold whitespace-nowrap text-white">
             The Squad 69
           </span>
@@ -50,16 +49,30 @@ const navbar = () => {
             </li>
 
             <li>
-              <Link href="team">
+              <Link href="predection">
                 <a className="block py-2 pr-4 pl-3 md:text-blue-200 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
-                  Team
+                  Prediction
                 </a>
               </Link>
             </li>
             <li>
-              <Link href="/backend">
+              <Link href="live">
                 <a className="block py-2 pr-4 pl-3 md:text-blue-200 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
-                  Backend
+                  Live
+                </a>
+              </Link>
+            </li>
+            <li>
+              <Link href="code">
+                <a className="block py-2 pr-4 pl-3 md:text-blue-200 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
+                  Code
+                </a>
+              </Link>
+            </li>
+            <li>
+              <Link href="team">
+                <a className="block py-2 pr-4 pl-3 md:text-blue-200 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
+                  Team
                 </a>
               </Link>
             </li>

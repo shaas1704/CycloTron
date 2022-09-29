@@ -8,7 +8,12 @@ const insat = () => {
         <div className="ml-[5rem] py-5 text-white flex flex-col ">
           <p className="text-4xl font-bold">What is INSAT-3DR ?</p>
           <p className="mt-5 text-xl font-regular font-poppins">
-            INSAT-3DR similar to INSAT-3D, is an advanced meteorological
+            INSAT-3DR similar to INSAT-3D whichis an advanced weather satellite
+            of India configured with improved Imaging System and Atmospheric
+            Sounder designed for enhanced meteorological observations,
+            monitoring of land and ocean surfaces, generating vertical profile
+            of the atmosphere in terms of temperature and humidity for weather
+            forecasting and disaster warning., is an advanced meteorological
             satellite of India configured with an imaging System and an
             Atmospheric Sounder. The significant improvements incorporated in
             INSAT-3DR are:-
@@ -23,11 +28,27 @@ const insat = () => {
               Surface Temperature (SST) with better accuracy
             </li>
             <li className="mt-5 text-lg list-disc ml-10">
-            Higher Spatial Resolution in the Visible and Thermal Infrared bands</li>
+              Higher Spatial Resolution in the Visible and Thermal Infrared
+              bands
+            </li>
           </ul>
-          <p className="mt-5 text-xl ">INSAT-3DR has a lift-off mass of 2211 kg, which includes about 1255 kg of propellant. The propellant carried by INSAT-3DR is mainly required to raise the satellite from the Geosynchronous Transfer Orbit (GTO) to its final Geostationary Orbit and to maintain the satellite in its orbital slot during its life. The satellite has a solar array generating 1700 Watts of power</p>
+          <p className="mt-5 text-xl ">
+            INSAT-3DR has a lift-off mass of 2211 kg, which includes about 1255
+            kg of propellant. The propellant carried by INSAT-3DR is mainly
+            required to raise the satellite from the Geosynchronous Transfer
+            Orbit (GTO) to its final Geostationary Orbit and to maintain the
+            satellite in its orbital slot during its life. The satellite has a
+            solar array generating 1700 Watts of power
+          </p>
         </div>
-        <button className="px-5 ml-[5rem] py-3 rounded-xl bg-gradient-to-br from-teal-100 to-cyan-700 hover:bg-blue-400 ">Know More</button>
+        <button className="px-5 ml-[5rem] py-3 rounded-xl bg-gradient-to-br from-teal-100 to-cyan-700 hover:bg-blue-400 ">
+          <a
+            href="https://www.isro.gov.in/Spacecraft/insat-3dr"
+            target="_blank"
+          >
+            Know more
+          </a>
+        </button>
       </div>
       <div className=" ">
         <Satelite />

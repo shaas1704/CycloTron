@@ -6,7 +6,7 @@ const about = () => {
     <div className="py-[5rem]">
       <div className="flex flex-col text-white items-center h-full">
         <h1 className="text-4xl font-bold underline decoration-red-400">
-          How did we build our Project
+          How did we build our Project ?
         </h1>
       </div>
       <div className="text-white mx-10 mt-10">
@@ -20,10 +20,14 @@ const about = () => {
           <li className="list-disc ">
             <p>
               <span className="text-xl font-semibold underline decoration-orange-200">
-                Xception{" "}
+                Xception
               </span>
-              :- Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Consectetur, voluptate.
+              :- The Xception model is a 71-layer deep CNN, inspired by the
+              Inception model from Google, and it is based on an extreme
+              interpretation of the Inception model. Its architecture is stacked
+              with depthwise separable convolutional layers. The pre-trained
+              version of the model is trained using millions of images from the
+              Imagenet
             </p>
           </li>
           <li className="list-disc ">
@@ -31,8 +35,9 @@ const about = () => {
               <span className="text-xl font-semibold underline decoration-orange-300">
                 ResNet50{" "}
               </span>
-              :- Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Consectetur, voluptate.
+              :- ResNet-50 is a convolutional neural network that is 50 layers
+              deep. ResNet, short for Residual Networks is a classic neural
+              network used as a backbone for many computer vision tasks.
             </p>
           </li>
         </ul>
@@ -45,8 +50,9 @@ const about = () => {
               <span className="text-xl font-semibold underline decoration-orange-200">
                 Next JS
               </span>
-              :- Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Consectetur, voluptate.
+              :- Next.js is a React framework that allows you to build
+              supercharged, SEO-friendly, and extremely user-facing static
+              websites
             </p>
           </li>
           <li className="list-disc ">
@@ -54,8 +60,7 @@ const about = () => {
               <span className="text-xl font-semibold underline decoration-orange-300">
                 Tailwind CSS
               </span>
-              :- Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Consectetur, voluptate.
+              :- Tailwind CSS is self-described as a utility first CSS framework
             </p>
           </li>
         </ul>
@@ -72,10 +77,16 @@ const about = () => {
                   Stage 1
                 </h1>
                 <p className="py-5">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
-                  esse, porro, laudantium architecto voluptatibus fuga enim qui
-                  perspiciatis rerum repellat sunt quaerat commodi quam dolores
-                  quae fugit tempora quisquam beatae!
+                  Here we are importing the necessary packages into our google
+                  colab environment.
+                  <ul className="list-disc ml-7 text-slate-300">
+                    <li className="list disc">Numpy</li>
+                    <li className="list disc">Pandas</li>
+                    <li className="list disc">OpenCV 2</li>
+                    <li className="list disc">Pandas</li>
+                    <li className="list disc">Seaborn</li>
+                    <li className="list disc">Matplotlib</li>
+                  </ul>
                 </p>
               </div>
               <div className="">
@@ -101,17 +112,15 @@ const about = () => {
                   Stage 2
                 </h1>
                 <p className="py-5">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
-                  esse, porro, laudantium architecto voluptatibus fuga enim qui
-                  perspiciatis rerum repellat sunt quaerat commodi quam dolores
-                  quae fugit tempora quisquam beatae!
+                  Here we load the dataset from Google Drive into our COLAB
+                  environment using the prebuilt methods.
                 </p>
               </div>
             </div>
             <div className="flex flex-col justify-center items-center h-full border-2 border-grey rounded-xl bg-[#e1e1e177] p-5">
               <h1 className="text-2xl mb-10  font-bold text-slate-800 ">
-                This is an example of the IR images recived from the INSAT-3D
-                Satelite
+                This is an example of the Brightness Temperature IR images
+                received from the INSAT-3D Satelite
               </h1>
               <Image
                 className="bg-black"
@@ -129,10 +138,8 @@ const about = () => {
                   Stage 3
                 </h1>
                 <p className="py-5">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
-                  esse, porro, laudantium architecto voluptatibus fuga enim qui
-                  perspiciatis rerum repellat sunt quaerat commodi quam dolores
-                  quae fugit tempora quisquam beatae!
+                  Here we use tensorflow.keras to train our CNN model and build
+                  the layers for training.
                 </p>
               </div>
               <div className="">
@@ -161,17 +168,17 @@ const about = () => {
               </div>
               <div className="w-1/2">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
-                  quo porro cumque, consectetur fuga totam earum corporis ipsa
-                  itaque? Ducimus.
+                  This is a splitup of the IR image that shows the Contour and
+                  the Color map showcasing the depth , various regions and
+                  characterisitic features of the image
                 </p>
               </div>
             </div>
             <div className="flex mt-5 flex-col justify-center items-center h-full border-2 border-grey rounded-xl bg-[#e1e1e177] p-5">
               <h1 className="text-2xl mb-10  font-bold text-slate-800 ">
                 This is an example showcasing the splitup of the IR Images of
-                Cyclones Titli and Luban dividing them into RAW, IR , Cardiod
-                and Depth
+                Cyclones Titli and Luban dividing them into RAW, Brightness
+                Temperature IR and Depth
               </h1>
               <Image
                 className="bg-black"

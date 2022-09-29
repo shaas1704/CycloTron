@@ -86,24 +86,24 @@ export default function Tri() {
       <Suspense fallback={null}>
         <Rig>
           <Triangle
-            color="#ff2060"
+            color="#FFFFFF"
             scale={0.009}
             rotation={[0, 0, Math.PI / 3]}
           />
           <Triangle
-            color="cyan"
+            color="#138808"
             scale={0.009}
             position={[2, 0, -2]}
             rotation={[0, 0, Math.PI / 3]}
           />
           <Triangle
-            color="orange"
+            color="#ff8c00"
             scale={0.009}
             position={[-2, 0, -2]}
             rotation={[0, 0, Math.PI / 3]}
           />
           <Triangle
-            color="white"
+            color="blue"
             scale={0.009}
             position={[0, 2, -10]}
             rotation={[0, 0, Math.PI / 3]}
